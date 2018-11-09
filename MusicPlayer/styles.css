@@ -9,8 +9,14 @@ animation-iteration-count:infinite;
 }
 
 .Start {
-background-color: #42f46e;
-border-color: #42f46e;
+background-color: turquoise;
+border-color: turquoise;
+border-radius: 30px;
+}
+
+.Start1 {
+background-color: lime;
+border-color: lime;
 border-radius: 30px;
 }
 
@@ -115,6 +121,18 @@ button {
 
 .loopbox {
     padding: 0;
-    margin: 0;
+		padding-left: 3px;
+		padding-right: 3px;
+		margin: 0;
+    margin-top: 5px;
+    float: right;
+}
+
+.loopboxtext {
+    padding: 0;
+		padding-left: 3px;
+		padding-right: 3px;
+		margin: 0;
+    margin-top: 3px;
     float: right;
 }
