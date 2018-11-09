@@ -1,7 +1,14 @@
 var song = document.createElement("audio");
-song.loop = true;
 
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+
+	if(request.type == "loop"){
+		if (request.value == "true"){
+			song.loop = true;
+		} else {
+			song.loop = false;
+		}
+	}
 
 	if (request.type == "Start"){
 		if (request.value == "ludicrous"){

@@ -66,9 +66,9 @@ document.addEventListener('DOMContentLoaded', function(){
 
 		if (checkBox.checked == true){
 			chrome.runtime.sendMessage({type: "loop", value:"true"}, function(response) {});
-  	} else {
-    chrome.runtime.sendMessage({type: "loop", value:"false"}, function(response) {});
-  	}
+  		} else {
+    		chrome.runtime.sendMessage({type: "loop", value:"false"}, function(response) {});
+  		}
 
 	});
 
