@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', function(){
 	var Start_Fun = document.getElementById('StartFun');
 	var Start_Usa = document.getElementById('StartUsa');
 	var Start_Gun = document.getElementById('StartGun');
+	var Start_Despacito = document.getElementById('StartDespacito');
 
 
 
@@ -99,6 +100,9 @@ document.addEventListener('DOMContentLoaded', function(){
 	});
 	Start_Gun.addEventListener('click', function() {
 		chrome.runtime.sendMessage({type: "Start", value:"elephant_gun"}, function(response) {});
+	});
+	Start_Despacito.addEventListener('click', function() {
+		chrome.runtime.sendMessage({type: "Start", value:"despacito"}, function(response) {});
 	});
 
 

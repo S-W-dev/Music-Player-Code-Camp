@@ -143,6 +143,12 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 			song.play();
 		}
 
+		if (request.value == "despacito"){
+			song.pause();
+			song.src = "https://cookie-clicker.github.io/musicplayer/songs/despacito.mp3";
+			song.play();
+		}
+
 
 		if (request.value == "current"){
 			if(song){
