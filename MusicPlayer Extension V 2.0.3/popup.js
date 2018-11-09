@@ -41,4 +41,11 @@ document.addEventListener('DOMContentLoaded', function(){
 
 	});
 
+
+		var slider = document.getElementById("myRange");
+		var output = document.getElementById("demo"); // Display the default slider value
+
+		// Update the current slider value (each time you drag the slider handle)
+		setInterval(function(){var volume = document.getElementById('demo').innerHTML = document.getElementById('myRange').value/100;}, 1);
+
 });
