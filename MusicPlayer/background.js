@@ -1,4 +1,5 @@
 var song = document.createElement("audio");
+song.loop = true;
 
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 
@@ -49,17 +50,23 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 		}
 
 		if (request.value == "current"){
-			song.play();
+			if(song){
+				song.play();
+			}
 		}
 	}
 
 	if (request.type == "Pause"){
-		song.pause();
+		if(song){
+			song.pause();
+		}
 	}
 
 	if (request.type == "Restart"){
-		song.pause();
-		song.currentTime = 0;
+		if(song){
+			song.pause();
+			song.currentTime = 0;
+		}
 	}
 
 });
