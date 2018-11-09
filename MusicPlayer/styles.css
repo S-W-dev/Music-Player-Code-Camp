@@ -12,24 +12,28 @@ animation-iteration-count:infinite;
 background-color: turquoise;
 border-color: turquoise;
 border-radius: 30px;
+float: right;
 }
 
 .Start1 {
 background-color: lime;
 border-color: lime;
 border-radius: 30px;
+float: right;
 }
 
 .Pause {
 background-color: #f4e349;
 border-color: #f4e349;
 border-radius: 30px;
+float: right;
 }
 
 .Restart {
 background-color: #e03838;
 border-color: #e03838;
 border-radius: 30px;
+float: right;
 }
 
 .title {
@@ -58,7 +62,7 @@ border-radius: 30px;
 }
 
 button {
-	float: right;
+	/*float: right;*/
 }
 
 @keyframes colorchange{
@@ -130,9 +134,10 @@ button {
 
 .loopboxtext {
     padding: 0;
-		padding-left: 3px;
-		padding-right: 3px;
-		margin: 0;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin: 0;
     margin-top: 3px;
     float: right;
 }
+
