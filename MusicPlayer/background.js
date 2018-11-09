@@ -58,6 +58,7 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 	}
 
 	if (request.type == "Restart"){
+		song.pause();
 		song.currentTime = 0;
 	}
 
