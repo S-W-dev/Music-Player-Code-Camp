@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function(){
 	var Start_Mine = document.getElementById('StartMine');
 	var Start_Sorry = document.getElementById('StartSorry');
 	var Start_Megalovania = document.getElementById('StartMegalovania');
+	var checkBox = document.getElementById('loopbox');
 
 	restart.addEventListener('click', function(){
 		chrome.runtime.sendMessage({type: "Restart", value:"hello"}, function(response){});
@@ -59,6 +60,16 @@ document.addEventListener('DOMContentLoaded', function(){
 
 	Start_Megalovania.addEventListener('click', function() {
 		chrome.runtime.sendMessage({type: "Start", value:"Megalovania"}, function(response) {});
+	});
+
+	$('#loopbox').click(function(){
+
+		if (checkBox.checked == true){
+			chrome.runtime.sendMessage({type: "loop", value:"true"}, function(response) {});
+  	} else {
+    chrome.runtime.sendMessage({type: "loop", value:"false"}, function(response) {});
+  	}
+
 	});
 
 });
