@@ -57,67 +57,67 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 		}
 
 		if (request.value == "lemon_tree"){
-			song.src = "https://cookie-clicker.github.io/musicplayer/songs/Megalovania.mp3";
+			song.src = "https://cookie-clicker.github.io/musicplayer/songs/lemon_tree.mp3";
 			song.play();
 		}
 
 		if (request.value == "quantom_mechanic"){
-			song.src = "https://cookie-clicker.github.io/musicplayer/songs/Megalovania.mp3";
+			song.src = "https://cookie-clicker.github.io/musicplayer/songs/quantom_mechanic.mp3";
 			song.play();
 		}
 
 		if (request.value == "hotel_california"){
-			song.src = "https://cookie-clicker.github.io/musicplayer/songs/Megalovania.mp3";
+			song.src = "https://cookie-clicker.github.io/musicplayer/songs/hotel_california.mp3";
 			song.play();
 		}
 
 		if (request.value == "bohemian_rhapsody"){
-			song.src = "https://cookie-clicker.github.io/musicplayer/songs/Megalovania.mp3";
+			song.src = "https://cookie-clicker.github.io/musicplayer/songs/bohemian_rhapsody.mp3";
 			song.play();
 		}
 
 		if (request.value == "painkiller"){
-			song.src = "https://cookie-clicker.github.io/musicplayer/songs/Megalovania.mp3";
+			song.src = "https://cookie-clicker.github.io/musicplayer/songs/painkiller.mp3";
 			song.play();
 		}
 
 		if (request.value == "jingle_bell_rock"){
-			song.src = "https://cookie-clicker.github.io/musicplayer/songs/Megalovania.mp3";
+			song.src = "https://cookie-clicker.github.io/musicplayer/songs/jingle_bell_rock.mp3";
 			song.play();
 		}
 
 		if (request.value == "o_holy_night"){
-			song.src = "https://cookie-clicker.github.io/musicplayer/songs/Megalovania.mp3";
+			song.src = "https://cookie-clicker.github.io/musicplayer/songs/o_holy_night.mp3";
 			song.play();
 		}
 
 		if (request.value == "back_in_black"){
-			song.src = "https://cookie-clicker.github.io/musicplayer/songs/Megalovania.mp3";
+			song.src = "https://cookie-clicker.github.io/musicplayer/songs/back_in_black.mp3";
 			song.play();
 		}
 
 		if (request.value == "merry_little_christmas"){
-			song.src = "https://cookie-clicker.github.io/musicplayer/songs/Megalovania.mp3";
+			song.src = "https://cookie-clicker.github.io/musicplayer/songs/merry_little_christmas.mp3";
 			song.play();
 		}
 
 		if (request.value == "yellow_ledbetter"){
-			song.src = "https://cookie-clicker.github.io/musicplayer/songs/Megalovania.mp3";
+			song.src = "https://cookie-clicker.github.io/musicplayer/songs/yellow_ledbetter.mp3";
 			song.play();
 		}
 
 		if (request.value == "life_is_fun"){
-			song.src = "https://cookie-clicker.github.io/musicplayer/songs/Megalovania.mp3";
+			song.src = "https://cookie-clicker.github.io/musicplayer/songs/life_is_fun.mp3";
 			song.play();
 		}
 
 		if (request.value == "god_bless_usa"){
-			song.src = "https://cookie-clicker.github.io/musicplayer/songs/Megalovania.mp3";
+			song.src = "https://cookie-clicker.github.io/musicplayer/songs/god_bless_usa.mp3";
 			song.play();
 		}
 
 		if (request.value == "elephant_gun"){
-			song.src = "https://cookie-clicker.github.io/musicplayer/songs/Megalovania.mp3";
+			song.src = "https://cookie-clicker.github.io/musicplayer/songs/elephant_gun.mp3";
 			song.play();
 		}
 
