@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function(){
 	var Start_Usa = document.getElementById('StartUsa');
 	var Start_Gun = document.getElementById('StartGun');
 	var Start_Despacito = document.getElementById('StartDespacito');
-	var slider = document.getElementById('MyRange');
 
 
 
@@ -111,9 +110,5 @@ document.addEventListener('DOMContentLoaded', function(){
 		window.location.href = 'popup.html';
 
 	});
-
-	slider.oninput = function() {
-    output.innerHTML = this.value;
-	}
 
 });
