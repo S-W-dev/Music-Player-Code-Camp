@@ -29,4 +29,16 @@ document.addEventListener('DOMContentLoaded', function(){
 
 	});
 
+	$('#button1').click(function(){
+
+		window.location.href = 'songs.html';
+
+	});
+
+	$('#creditsbutton').click(function(){
+
+		window.location.href = 'credits.html';
+
+	});
+
 });

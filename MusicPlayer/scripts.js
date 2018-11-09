@@ -105,5 +105,10 @@ document.addEventListener('DOMContentLoaded', function(){
 		chrome.runtime.sendMessage({type: "Start", value:"despacito"}, function(response) {});
 	});
 
+	$('#button1').click(function(){
+
+		window.location.href = 'popup.html';
+
+	});
 
 });
