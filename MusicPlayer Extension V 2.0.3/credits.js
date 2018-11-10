@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  $('#creditsbutton').click(function(){
+    $('#creditsbutton').click(function() {
 
-    window.location.href = 'popup.html';
+        window.location.href = 'popup.html';
 
-  });
+    });
 });
