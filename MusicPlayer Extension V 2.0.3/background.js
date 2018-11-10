@@ -134,7 +134,7 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     if (request.type == "Restart") {
         if (song) {
             song.pause();
-            song.currentTime = 00;
+            song.currentTime = 0;
         }
     }
     if (request.type == "volume") {
