@@ -258,11 +258,29 @@ button {
 	height: 65.625px;
 	margin: 0;
 	float: left;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
 }
 
 #stickman2 {
 	width: 75px;
 	height: 65.625px;
+	margin: 0;
+	float: right;
+}
+
+#stickman3 {
+	width: 100px;
+	height: 87.5px;
+	margin: 0;
+	float: left;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+#stickman4 {
+	width: 100px;
+	height: 87.5px;
 	margin: 0;
 	float: right;
 }
