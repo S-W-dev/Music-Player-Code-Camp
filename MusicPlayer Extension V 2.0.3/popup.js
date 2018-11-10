@@ -58,6 +58,24 @@ document.addEventListener('DOMContentLoaded', function() {
 
     });
 
+		$('#Seek1').click(function(){
+
+			chrome.runtime.sendMessage({
+					type: "seek",
+					value: "+5"
+			}, function(response) {});
+
+		});
+
+		$('#Seek2').click(function(){
+
+			chrome.runtime.sendMessage({
+					type: "seek",
+					value: "-5"
+			}, function(response) {});
+
+		});
+
 
     var slider = document.getElementById("myRange");
     var output = document.getElementById("demo"); // Display the default slider value
