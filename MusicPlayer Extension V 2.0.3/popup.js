@@ -26,8 +26,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }, function(response) {});
     });
 
-
-
+		chrome.runtime.sendMessage({
+				type: "loop",
+				value: "true"
+		}, function(response) {});
     $('#loopbox').click(function() {
 
         if (checkBox.checked == true) {
