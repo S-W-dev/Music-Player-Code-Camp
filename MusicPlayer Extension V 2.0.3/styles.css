@@ -252,3 +252,17 @@ button {
     background: url('MusicSlider.png');
     cursor: pointer;
 }
+
+#stickman1 {
+	width: 75px;
+	height: 65.625px;
+	margin: 0;
+	float: left;
+}
+
+#stickman2 {
+	width: 75px;
+	height: 65.625px;
+	margin: 0;
+	float: right;
+}
