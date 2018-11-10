@@ -42,14 +42,13 @@ document.addEventListener('DOMContentLoaded', function(){
 	});
 
 
-		var slider = document.getElementById("myRange");
-		var output = document.getElementById("demo"); // Display the default slider value
+	var slider = document.getElementById("myRange");
+	var output = document.getElementById("demo"); // Display the default slider value
 
-		// Update the current slider value (each time you drag the slider handle)
-		setInterval(function(){
+	// Update the current slider value (each time you drag the slider handle)
+	setInterval(function(){
 
-			var volume = document.getElementById('demo').innerHTML = document.getElementById('myRange').value/100;
-			chrome.runtime.sendMessage({type: "volume", value:volume}, function(response) {});
-
+		var volume = document.getElementById('demo').innerHTML = document.getElementById('myRange').value/100;
+		chrome.runtime.sendMessage({type: "volume", value:volume}, function(response) {});
 	}, 1);
 });

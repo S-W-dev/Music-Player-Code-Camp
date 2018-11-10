@@ -67,9 +67,28 @@ float: right;
 	-webkit-animation: colorchange2 10s;
 	animation-iteration-count:infinite;
 	-webkit-animation-iteration-count:infinite;
+	font-weight: bold;
+}
+
+.songdivtext {
+	color: blue;
+	display: inline;
+	animation: colorchange2 10s;
+	-webkit-animation: colorchange2 10s;
+	animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
+	font-weight: bold;
 }
 
 button {
+	font-weight: bold;
+}
+
+hr {
+	animation: colorchange3 10s;
+	-webkit-animation: colorchange3 10s;
+	animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
 
 }
 
