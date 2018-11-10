@@ -23,8 +23,11 @@ document.addEventListener('DOMContentLoaded', function() {
     var Start_Usa = document.getElementById('StartUsa');
     var Start_Gun = document.getElementById('StartGun');
     var Start_Despacito = document.getElementById('StartDespacito');
-
-
+		var Start_BlueSky = document.getElementById('StartBlueSky');
+		var Start_TheDust = document.getElementById('StartTheDust');
+		var Start_RocketMan = document.getElementById('StartRocketMan');
+		var Start_VivaLaVida = document.getElementById('StartVivaLaVida');
+		var Start_PianoMan = document.getElementById('StartPianoMan');
 
     Start_Ludicrous.addEventListener('click', function() {
         window.location.href = 'popup.html';
@@ -196,6 +199,42 @@ document.addEventListener('DOMContentLoaded', function() {
             value: "despacito"
         }, function(response) {});
     });
+		Start_BlueSky.addEventListener('click', function() {
+        window.location.href = 'popup.html';
+        chrome.runtime.sendMessage({
+            type: "Start",
+            value: "BlueSky"
+        }, function(response) {});
+    });
+		Start_TheDust.addEventListener('click', function() {
+        window.location.href = 'popup.html';
+        chrome.runtime.sendMessage({
+            type: "Start",
+            value: "TheDust"
+        }, function(response) {});
+    });
+		Start_RocketMan.addEventListener('click', function() {
+        window.location.href = 'popup.html';
+        chrome.runtime.sendMessage({
+            type: "Start",
+            value: "RocketMan"
+        }, function(response) {});
+    });
+		Start_VivaLaVida.addEventListener('click', function() {
+        window.location.href = 'popup.html';
+        chrome.runtime.sendMessage({
+            type: "Start",
+            value: "VivaLaVida"
+        }, function(response) {});
+    });
+		Start_PianoMan.addEventListener('click', function() {
+        window.location.href = 'popup.html';
+        chrome.runtime.sendMessage({
+            type: "Start",
+            value: "PianoMan"
+        }, function(response) {});
+    });
+
 
     $('#button1').click(function() {
 

@@ -149,6 +149,36 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 
         }
 
+				if (request.value == "BlueSky") {
+            song.pause();
+            song.src = "https://cookie-clicker.github.io/musicplayer/songs/blue_sky.mp3";
+
+        }
+
+				if (request.value == "TheDust") {
+            song.pause();
+            song.src = "https://cookie-clicker.github.io/musicplayer/songs/bite_the_dust.mp3";
+
+        }
+
+				if (request.value == "RocketMan") {
+            song.pause();
+            song.src = "https://cookie-clicker.github.io/musicplayer/songs/rocket_man.mp3";
+
+        }
+
+				if (request.value == "VivaLaVida") {
+            song.pause();
+            song.src = "https://cookie-clicker.github.io/musicplayer/songs/viva_la_vida.mp3";
+
+        }
+
+				if (request.value == "PianoMan") {
+            song.pause();
+            song.src = "https://cookie-clicker.github.io/musicplayer/songs/piano_man.mp3";
+
+        }
+
 
         if (request.value == "current") {
             if (song) {
