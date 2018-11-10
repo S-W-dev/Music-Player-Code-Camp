@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-
     var Start_Ludicrous = document.getElementById('StartLudicrous');
     var Start_Hydra = document.getElementById('StartHydra');
     var Start_Muffin = document.getElementById('StartMuffin');
@@ -23,12 +22,12 @@ document.addEventListener('DOMContentLoaded', function() {
     var Start_Usa = document.getElementById('StartUsa');
     var Start_Gun = document.getElementById('StartGun');
     var Start_Despacito = document.getElementById('StartDespacito');
-		var Start_BlueSky = document.getElementById('StartBlueSky');
-		var Start_TheDust = document.getElementById('StartTheDust');
-		var Start_RocketMan = document.getElementById('StartRocketMan');
-		var Start_VivaLaVida = document.getElementById('StartVivaLaVida');
-		var Start_PianoMan = document.getElementById('StartPianoMan');
-
+    var Start_BlueSky = document.getElementById('StartBlueSky');
+    var Start_TheDust = document.getElementById('StartTheDust');
+    var Start_RocketMan = document.getElementById('StartRocketMan');
+    var Start_VivaLaVida = document.getElementById('StartVivaLaVida');
+    var Start_PianoMan = document.getElementById('StartPianoMan');
+		
     Start_Ludicrous.addEventListener('click', function() {
         window.location.href = 'popup.html';
         chrome.runtime.sendMessage({
@@ -36,7 +35,6 @@ document.addEventListener('DOMContentLoaded', function() {
             value: "ludicrous"
         }, function(response) {});
     });
-
     Start_Hydra.addEventListener('click', function() {
         window.location.href = 'popup.html';
         chrome.runtime.sendMessage({
@@ -44,7 +42,6 @@ document.addEventListener('DOMContentLoaded', function() {
             value: "hydra"
         }, function(response) {});
     });
-
     Start_Muffin.addEventListener('click', function() {
         window.location.href = 'popup.html';
         chrome.runtime.sendMessage({
@@ -52,7 +49,6 @@ document.addEventListener('DOMContentLoaded', function() {
             value: "muffin"
         }, function(response) {});
     });
-
     Start_BetterNow.addEventListener('click', function() {
         window.location.href = 'popup.html';
         chrome.runtime.sendMessage({
@@ -60,7 +56,6 @@ document.addEventListener('DOMContentLoaded', function() {
             value: "BetterNow"
         }, function(response) {});
     });
-
     Start_Thunder.addEventListener('click', function() {
         window.location.href = 'popup.html';
         chrome.runtime.sendMessage({
@@ -68,7 +63,6 @@ document.addEventListener('DOMContentLoaded', function() {
             value: "Thunder"
         }, function(response) {});
     });;
-
     Start_Bob.addEventListener('click', function() {
         window.location.href = 'popup.html';
         chrome.runtime.sendMessage({
@@ -76,7 +70,6 @@ document.addEventListener('DOMContentLoaded', function() {
             value: "Bob"
         }, function(response) {});
     });
-
     Start_Mine.addEventListener('click', function() {
         window.location.href = 'popup.html';
         chrome.runtime.sendMessage({
@@ -84,7 +77,6 @@ document.addEventListener('DOMContentLoaded', function() {
             value: "Mine"
         }, function(response) {});
     });
-
     Start_Sorry.addEventListener('click', function() {
         window.location.href = 'popup.html';
         chrome.runtime.sendMessage({
@@ -92,7 +84,6 @@ document.addEventListener('DOMContentLoaded', function() {
             value: "Sorry"
         }, function(response) {});
     });
-
     Start_Megalovania.addEventListener('click', function() {
         window.location.href = 'popup.html';
         chrome.runtime.sendMessage({
@@ -100,7 +91,6 @@ document.addEventListener('DOMContentLoaded', function() {
             value: "Megalovania"
         }, function(response) {});
     });
-
     Start_Lemon.addEventListener('click', function() {
         window.location.href = 'popup.html';
         chrome.runtime.sendMessage({
@@ -199,47 +189,42 @@ document.addEventListener('DOMContentLoaded', function() {
             value: "despacito"
         }, function(response) {});
     });
-		Start_BlueSky.addEventListener('click', function() {
+    Start_BlueSky.addEventListener('click', function() {
         window.location.href = 'popup.html';
         chrome.runtime.sendMessage({
             type: "Start",
             value: "BlueSky"
         }, function(response) {});
     });
-		Start_TheDust.addEventListener('click', function() {
+    Start_TheDust.addEventListener('click', function() {
         window.location.href = 'popup.html';
         chrome.runtime.sendMessage({
             type: "Start",
             value: "TheDust"
         }, function(response) {});
     });
-		Start_RocketMan.addEventListener('click', function() {
+    Start_RocketMan.addEventListener('click', function() {
         window.location.href = 'popup.html';
         chrome.runtime.sendMessage({
             type: "Start",
             value: "RocketMan"
         }, function(response) {});
     });
-		Start_VivaLaVida.addEventListener('click', function() {
+    Start_VivaLaVida.addEventListener('click', function() {
         window.location.href = 'popup.html';
         chrome.runtime.sendMessage({
             type: "Start",
             value: "VivaLaVida"
         }, function(response) {});
     });
-		Start_PianoMan.addEventListener('click', function() {
+    Start_PianoMan.addEventListener('click', function() {
         window.location.href = 'popup.html';
         chrome.runtime.sendMessage({
             type: "Start",
             value: "PianoMan"
         }, function(response) {});
     });
-
-
     $('#button1').click(function() {
-
         window.location.href = 'popup.html';
-
     });
-
 });
