@@ -174,4 +174,16 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
         song.volume = request.value;
     }
 
+		if (request.type == "seek") {
+
+			if (request.value == "+5"){
+				song.currentTime = song.currentTime + 5;
+			}
+
+			if (request.value == "-5"){
+				song.currentTime = song.currentTime - 5;
+			}
+
+		}
+
 });
