@@ -67,9 +67,3 @@ document.addEventListener('DOMContentLoaded', function() {
         }, function(response) {});
     }, 1);
 });
-chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
-    if (request.type == "update") {
-        var current_song = document.getElementById('Current_Song');
-        current_song.innerHTML = request.value;
-    }
-});
