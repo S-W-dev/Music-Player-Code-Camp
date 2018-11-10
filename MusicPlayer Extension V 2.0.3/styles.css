@@ -340,13 +340,18 @@ button {
 	float: left;
 	-webkit-transform: scaleX(-1);
 	transform: scaleX(-1);
+	margin-top: 10px;
+	position: absolute;
 }
 
 #stickman2 {
 	width: 75px;
 	height: 65.625px;
 	margin: 0;
+	margin-left: 260px;
+	margin-top: 10px;
 	float: right;
+	position: absolute;
 }
 
 #stickman3 {
@@ -356,13 +361,25 @@ button {
 	float: left;
 	-webkit-transform: scaleX(-1);
 	transform: scaleX(-1);
+	position: absolute;
 }
 
 #stickman4 {
 	width: 100px;
 	height: 87.5px;
 	margin: 0;
+	margin-left: 275px;
 	float: right;
+	position: absolute;
+}
+
+#stickman5 {
+	width: 126.5px;
+	height: 92px;
+	margin: 0;
+	margin-left: 110px;
+	margin-top: -20px;
+	position: absolute;
 }
 
 .seek1 {
