@@ -49,13 +49,7 @@ document.addEventListener('DOMContentLoaded', function(){
 		setInterval(function(){
 
 			var volume = document.getElementById('demo').innerHTML = document.getElementById('myRange').value/100;
-			if (localStorage.getItem('volume')){
-				volume = localStorage.getItem('volume');
-				slider.value = volume;
-				chrome.runtime.sendMessage({type: "volume", value:volume}, function(response) {});
-			}
 			chrome.runtime.sendMessage({type: "volume", value:volume}, function(response) {});
-			localStorage.setItem('volume', volume);
 
 	}, 1);
 });
