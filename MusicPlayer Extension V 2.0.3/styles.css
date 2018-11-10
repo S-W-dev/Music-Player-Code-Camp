@@ -366,9 +366,15 @@ button {
 }
 
 .seek1 {
+	border-color: #6082b6;
 	background-color: #6082b6;
+	border-radius: 30px;
+	width: 165px;
 }
 
 .seek2 {
+	border-color: #6082b6;
 	background-color: #6082b6;
+	border-radius: 30px;
+	width: 165px;
 }
